@@ -1,17 +1,289 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menu Content</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">This is the menu content.</ion-content>
+  </ion-menu>
+  
+  <div class="ion-page" id="main-content">
+  
+    <ion-content>
+  
+        <ion-menu contentId="main-content">
+          <ion-header>
+            <ion-toolbar>
+              <ion-title>Menu Content</ion-title>
+            </ion-toolbar>
+          </ion-header>
+          <ion-content class="ion-padding">This is the menu content.</ion-content>
+        </ion-menu>
+      <div id="header">
+      
+      <div class="main_content_div">
+        <div class="user_div">
+         <div class="user_back" [style.backgroundImage]="'url(assets/logo.jpeg)'"></div>
+          <div class="first_div">
+            <ion-label class="Welcome">Riza Rahmawan</ion-label>
+            <ion-label class="Username">Sistem Informasi</ion-label>
+            <ion-label class="Username">Unbin</ion-label>
+         </div>
+      <div class="mapouter">
+        <div class="gmap_canvas">
+            <div class="user_back" [style.backgroundImage]="'url(assets/tenz.png)'"></div>
+        </div>
+      </div>
+    </div>
+      </div>
+      <div class="kotak">
+        <div class="right">
+            <h1>3.4</h1>
+            <h3>IP Komulatif</h3>
+        </div>
+        <div class="left">
+            <h1>21</h1>
+            <h3>SKS Tempuh</h3>
+        </div>
+    </div>
+    </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    
+    
+    
+    
+      <ion-slides>
+        <ion-slide>
+          <div class="slide">
+            <ion-row>
+              <ion-col size="4">
+                <ion-card routerLink="/blank">
+                  <ion-card-content>
+                    <div syle="text-align:center;">
+                      <ion-card-title><img src="assets/aca2.png" alt=""></ion-card-title>
+                      <ion-card-subtitle></ion-card-subtitle>
+                    </div>
+                  </ion-card-content>
+                </ion-card>
+                <b>Jadwal</b>
+              </ion-col>
+          
+              <ion-col size="4">
+                <ion-card routerLink="/blank">
+                  <ion-card-content>
+                    <div syle="text-align:center;">
+                      <ion-card-title><img src="assets/aca1.png" alt=""></ion-card-title>
+                      <ion-card-subtitle></ion-card-subtitle>
+                    </div>
+                  </ion-card-content>
+                </ion-card>
+                <b>Presensi</b>
+              </ion-col>
+          
+              <ion-col size="4">
+                <ion-card routerLink="/blank">
+                  <ion-card-content>
+                    <div syle="text-align:center;">
+                      <ion-card-title><img src="assets/aca3.png" alt=""></ion-card-title>
+                      <ion-card-subtitle></ion-card-subtitle>
+                    </div>
+                  </ion-card-content>
+                </ion-card>
+                <b>Nilai</b>
+              </ion-col>
+          
+              <ion-col size="4">
+                <ion-card routerLink="/blank">
+                  <ion-card-content>
+                    <div syle="text-align:center;">
+                      <ion-card-title><img src="assets/aca4.png" alt=""></ion-card-title>
+                      <ion-card-subtitle></ion-card-subtitle>
+                    </div>
+                  </ion-card-content>
+                </ion-card>
+                <b>Bahan & Tugas</b>
+              </ion-col>
+          
+              <ion-col size="4">
+                <ion-card routerLink="/blank">
+                  <ion-card-content>
+                    <div syle="text-align:center;">
+                      <ion-card-title><img src="assets/adm2.png" alt=""></ion-card-title>
+                      <ion-card-subtitle></ion-card-subtitle>
+                    </div>
+                  </ion-card-content>
+                </ion-card>
+                <b>KRSS/KRS</b>
+              </ion-col>
+          
+              <ion-col size="4">
+                <ion-card routerLink="/blank">
+                  <ion-card-content>
+                    <div syle="text-align:center;">
+                      <ion-card-title><img src="assets/aca6.png" alt=""></ion-card-title>
+                      <ion-card-subtitle></ion-card-subtitle>
+                    </div>
+                  </ion-card-content>
+                </ion-card>
+                <b>TA/Wisuda</b>
+              </ion-col>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+              <ion-col size="4">
+                <ion-card routerLink="/blank">
+                  <ion-card-content>
+                    <div syle="text-align:center;">
+                      <ion-card-title><img src="assets/fn4.png" alt=""></ion-card-title>
+                      <ion-card-subtitle></ion-card-subtitle>
+                    </div>
+                  </ion-card-content>
+                </ion-card>
+                <b>Kegiatan</b>
+              </ion-col>
+          
+              <ion-col size="4">
+                <ion-card routerLink="/blank">
+                  <ion-card-content>
+                    <div syle="text-align:center;">
+                      <ion-card-title><img src="assets/fn3.png" alt=""></ion-card-title>
+                      <ion-card-subtitle></ion-card-subtitle>
+                    </div>
+                  </ion-card-content>
+                </ion-card>
+                <b>Biaya Kuliah</b>
+              </ion-col>
+              <ion-col size="4">
+                <ion-card routerLink="/blank">
+                  <ion-card-content>
+                    <div syle="text-align:center;">
+                      <ion-card-title><img src="assets/adm1.png" alt=""></ion-card-title>
+                      <ion-card-subtitle></ion-card-subtitle>
+                    </div>
+                  </ion-card-content>
+                </ion-card>
+                <b>Kuisioner</b>
+              </ion-col>
+            </ion-row>
+          </div>
+        </ion-slide>
+      
+        <ion-slide>
+          <b>FINANCE</b>
+          <ion-row>
+            <ion-col size="4">
+              <ion-card routerLink="/blank">
+                <ion-card-content>
+                  <div syle="text-align:center;">
+                    <ion-card-title><img src="assets/fn1.png" alt=""></ion-card-title>
+                    <ion-card-subtitle></ion-card-subtitle>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+              <b>Cash</b>
+            </ion-col>
+        
+            <ion-col size="4">
+              <ion-card routerLink="/blank">
+                <ion-card-content>
+                  <div syle="text-align:center;">
+                    <ion-card-title><img src="assets/fn2.png" alt=""></ion-card-title>
+                    <ion-card-subtitle></ion-card-subtitle>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+              <b>Credit</b>
+            </ion-col>
+        
+            <ion-col size="4">
+              <ion-card routerLink="/blank">
+                <ion-card-content>
+                  <div syle="text-align:center;">
+                    <ion-card-title><img src="assets/fn3.png" alt=""></ion-card-title>
+                    <ion-card-subtitle></ion-card-subtitle>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+              <b>M Banking</b>
+            </ion-col>
+        
+            <ion-col size="4">
+              <ion-card routerLink="/blank">
+                <ion-card-content>
+                  <div syle="text-align:center;">
+                    <ion-card-title><img src="assets/fn4.png" alt=""></ion-card-title>
+                    <ion-card-subtitle></ion-card-subtitle>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+              <b>Merchant</b>
+            </ion-col>
+        
+            <ion-col size="4">
+              <ion-card routerLink="/blank">
+                <ion-card-content>
+                  <div syle="text-align:center;">
+                    <ion-card-title><img src="assets/fn5.png" alt=""></ion-card-title>
+                    <ion-card-subtitle></ion-card-subtitle>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+              <b>Bank</b>
+            </ion-col>
+        
+            <ion-col size="4">
+              <ion-card routerLink="/blank">
+                <ion-card-content>
+                  <div syle="text-align:center;">
+                    <ion-card-title><img src="assets/fn6.png" alt=""></ion-card-title>
+                    <ion-card-subtitle></ion-card-subtitle>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+              <b>Debit</b>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+      
+        <ion-slide>
+          <b>ADMINISTRATION</b>
+          <ion-row>
+            <ion-col size="4">
+              <ion-card routerLink="/blank">
+                <ion-card-content>
+                  <div syle="text-align:center;">
+                    <ion-card-title><img src="assets/adm1.png" alt=""></ion-card-title>
+                    <ion-card-subtitle></ion-card-subtitle>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+              <b>Personal Data</b>
+            </ion-col>
+        
+            <ion-col size="4">
+              <ion-card routerLink="/blank">
+                <ion-card-content>
+                  <div syle="text-align:center;">
+                    <ion-card-title><img src="assets/adm2.png" alt=""></ion-card-title>
+                    <ion-card-subtitle></ion-card-subtitle>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+              <b>Study Plan Card</b>
+            </ion-col>
+        
+            <ion-col size="4">
+              <ion-card routerLink="/blank">
+                <ion-card-content>
+                  <div syle="text-align:center;">
+                    <ion-card-title><img src="assets/adm3.png" alt=""></ion-card-title>
+                    <ion-card-subtitle></ion-card-subtitle>
+                  </div>
+                </ion-card-content>
+              </ion-card>
+              <b>Bill</b>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+        </ion-slides>
+    </ion-content>
+    
+  </div>  
